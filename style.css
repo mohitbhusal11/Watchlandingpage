@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800&display=swap');
+html,body{
+    /* font-size: 5rem; */
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.base-div{
+    background-color: rgb(232, 173, 173);
+    width: 100%;
+    /* height: 100vh; */
+}
+.left-div{
+    background-color: #e1dada;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+}
+.right-div{
+    display: inline;
+    background-color: #232637;
+    width: 50%;
+    height: 100vh;
+    position: absolute  ;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    z-index: 1;
+    font-size: 35rem;
+    transform: translate(-50%, -50%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,62,176,1) 100%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.watch{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: 0;
+    z-index: 2;
+    
+    transform: translate(-50%,-50%);
+}
+.watch img{
+    width: 12rem;
+}
+.explore-more{
+    position: absolute;
+    z-index: 3;
+    padding: 0.2rem 2rem;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.explore-more a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 3rem;
+    top: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.left-nav-item {
+    z-index: 4;
+    position: absolute;
+    left: 12rem;
+    top: 2.4rem;
+}
+.left-nav-item a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1rem;
+    color: #232637;
+}
+.left-por{
+    z-index: 4;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}
+.por{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+.contact{
+    position: absolute;
+    border: solid black 2px;
+    padding: 0.2rem 1rem;
+    rotate: 90deg;
+    top: 25%;
+    left: 1rem;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.table-box{
+    position: absolute;
+    bottom: 8rem;
+    left: 4rem;
+}
+.table-box table td{
+    border: solid black 2px;
+    padding: 0.1rem 1rem;
+}
+.table-box a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.left-bottom-nav{
+    position: absolute;
+    bottom: 3rem;
+    left: 4rem;
+}
+.left-bottom-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+}
+.right-che{
+    z-index: 4;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    color: white;
+}
+.che{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+.right-nav-item{
+    position: absolute;
+    right: 3rem;
+    top: 2.4rem;
+}
+.right-nav-item a{
+    text-decoration: none;
+    margin-left: 2rem;
+    display: inline-block;
+    color: #e1dada;
+}
+.print{
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    border: solid rgb(255, 255, 255) 2px;
+    rotate: 90deg;
+    padding: 0.2rem 1rem;
+}
+.print a{
+    text-decoration: none;
+    color: white;
+}
+.social-media{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+
+
+@media(max-width:500px){
+    .base-div{
+        flex-direction: column;
+    }
+    .base-div .left-bottom-nav{
+        width: 100%;
+    }
+    .base-div .right-bottom-nav{
+        width: 100%;
+    }
+}
