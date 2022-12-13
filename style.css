@@ -180,13 +180,71 @@ html,body{
 
 
 @media(max-width:500px){
-    .base-div{
-        flex-direction: column;
+    .left-nav-item{
+        text-align: left;
+        top: 6rem;
+        left: 6rem;
+        width: 0;
     }
-    .base-div .left-bottom-nav{
-        width: 100%;
+    .left-nav-item a{
+        font-weight: 700;
     }
-    .base-div .right-bottom-nav{
-        width: 100%;
+    .right-nav-item{
+        text-align: left;
+        top: 6rem;
+        left: 1rem;
+        width: 0;
+    }
+    .right-nav-item a{
+        font-weight: 700;
+    }
+    .left-por{
+        display: none;
+    }
+    .right-che{
+        display: none;
+    }
+    .table-box{
+        display: none;
+    }
+    .left-bottom-nav{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+    .explore-more{
+        top: 75%;    
+    }
+    .contact{
+        display: none;
+    }
+    .print{
+        display: none;
+    }
+    .logo{
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+        background-color: #232637;
+        padding: 8px;
+        border-radius: 50%;
+        left: 75%;
+        z-index: 4;
+        color: #e1dada;
+    }
+    /* html{
+        background-color: #232637;
+    } */
+    /* .left-div{
+        display: none;
+    }
+    .right-div{
+        display: none;
+    } */
+    .text{
+        font-size: 25rem;
+    }
+    .watch img{
+        width: 10rem;
     }
 }
