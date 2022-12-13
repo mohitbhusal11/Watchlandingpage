@@ -192,7 +192,7 @@ html,body{
     .right-nav-item{
         text-align: left;
         top: 6rem;
-        left: 1rem;
+        left: 0rem;
         width: 0;
     }
     .right-nav-item a{
@@ -228,7 +228,7 @@ html,body{
         background-color: #232637;
         padding: 8px;
         border-radius: 50%;
-        left: 75%;
+        left: 70%;
         z-index: 4;
         color: #e1dada;
     }
